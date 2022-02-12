@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,800;0,900;1,200;1,300;1,700&family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.heading {
+  width: 100%;
+  height: 60vh;
+  background-image: url("../personal-website/header-bg.png");
+  background-repeat: no-repeat;
+}
+.heading-div {
+  justify-content: center;
+  margin-top: 50px;
+}
+.heading-text {
+  width: 40%;
+  margin: 20px;
+}
+.heading-text h1 {
+  font-size: 50px;
+  color: tomato;
+}
+.heading-text h2 {
+  font-size: 40px;
+}
+.clear {
+  content: "";
+  clear: both;
+}
+.heading-text p {
+  font-size: 30px;
+  color: gray;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.btn {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  background-image: linear-gradient(to right, red, tomato);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+}
+.heading-img {
+  width: 40%;
+}
+.heading-img img {
+  width: 80%;
+}
+/* start biography sec  */
+.biography {
+  background-image: url("../personal-website/biography-bg.png");
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+.biography-div {
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.biography-img {
+  padding: 20px;
+  width: 40%;
+}
+.biography-text {
+  width: 40%;
+  margin: 20px;
+  padding: 20px;
+}
+.biography-text > p {
+  color: grey;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.biography-img > img {
+  width: 80%;
+}
+.biography-text h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+/* start latest work  */
+.latest-work {
+  background-image: url("../personal-website/latest-work-bg.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  vertical-align: middle;
+}
+.works-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+.latest-work-div {
+}
+.works {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.works > img {
+  width: 25%;
+  margin: 20px;
+  height: auto;
+}
+
+/* start about section  */
+.about {
+  min-height: 70vh;
+  background-image: url("../personal-website/footer-bg.png");
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px 0px;
+}
+.about-title {
+  font-size: 60px;
+  padding-top: 100px;
+}
+.about-subtitle {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.ceo {
+  font-size: 20px;
+  color: #8a9299;
+}
+
+.about-message {
+  font-size: 30px;
+  margin: 50px auto;
+  width: 50%;
+}
+.about-card {
+  width: 60%;
+  background-image: linear-gradient(to right, #ec4e8c, #ed4b72);
+  margin: auto;
+  height: 300px;
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+}
+.about-card p {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.about-card a {
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+/* footer  */
+.footer {
+  min-height: 15vh;
+  text-align: center;
+}
+.footer h3 {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  font-size: 30px;
+  color: #5d5e5f;
+}
